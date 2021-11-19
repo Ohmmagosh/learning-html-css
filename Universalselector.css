@@ -1,0 +1,19 @@
+div{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;    
+}
+.message{
+    color: rgb(10, 73, 189);
+}
+#title{
+    color: brown;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+*{
+    background-color: rgb(23, 214, 228);
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnitCSS</title>
+    <link rel="stylesheet" href="Unit.css">
+</head>
+<body>
+    <div>
+        <h1>
+            หน่วย(Unit)ใน CSS(Absolute)แบบตายตัว
+        </h1>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <th>Unit</th>
+                <th>Detail</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>px</td>
+                    <td>pixel(พิกเซล)เป็นหน่วยที่นิยมใช้มากที่สุด โดยที่ 1px = 0.75pt สัมพันธ์กับรายละเอียดหน้าจอ</td>
+                </tr>
+                <tr>
+                    <td>pt</td>
+                    <td>point โดยที่ 1pt = 1/72 inchs ใช้ในงานสิ่งพิมพ์</td>
+                </tr>
+                <tr>
+                    <td>cm</td>
+                    <td>เซนติเมตร</td>
+                </tr>
+                <tr>
+                    <td>mm</td>
+                    <td>มิลลิเมตร</td>
+                </tr>
+                <tr>
+                    <td>in</td>
+                    <td>inch (1 in = 96px =2.54cm)</td>
+                </tr>
+                <tr>
+                    <td>pc</td>
+                    <td>picas(1pc = 12pt)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div>
+        <h1>
+            หน่วย(Unit)ใน CSS(Relative)แบบอัตราส่วน
+        </h1>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <th>%</th>
+                <th>Detail</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="FC">em</td>
+                    <td>
+                        <ul>อ้างอิงขนาดกับ element parent ที่ใกล้ที่สุด ใช้ในการกำหนดขนาดจำนวนเท่าของขนาดปัจจุบันเช่น หากขนาดที่ใช้ตอนนี้คือ10px
+                            <li>ถ้ากำหนดนาดเป็น 2em จะหมายถึง 2 เท่าของขนาดปัจจุบัน คือ 20px</li>
+                            <li>ถ้ากำหนดนาดเป็น 1.4em จะหมายถึง 1.4 เท่าของขนาดปัจจุบัน คือ 14px</li>
+                            <li>ถ้ากำหนดขนาดเดิมให้กำหนดเป็น 1em = 10px</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>rem</td>
+                    <td>กำหนดขนาดโดยอ้างอิงกับ  root element ปกติ font-size จะอยู่ที่16px</td>
+                </tr>
+                <tr>
+                    <td>vw</td>
+                    <td>
+                        <ul>1% หรือ 1/100 ของviewport height
+                            <li>Width ของbrowser viewport เท่ากับ 750px ค่า 1vw = 7.5px</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>vh</td>
+                    <td>height ของ browser viewport เท่ากับ  900px ค่า1vh = 9px</td>
+                </tr>
+                <tr>
+                    <td>vmin,vmax</td>
+                    <td>กำหนดค่าต่ำสุด และสูงสุดของviewport</td>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

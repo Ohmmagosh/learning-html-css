@@ -1,0 +1,25 @@
+/*comment*/
+div{
+    text-align: center;
+}
+.header{
+    font-size: 75px;
+    color: crimson;
+
+}
+#header{
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+footer{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+p#message{
+    color: rgb(219, 104, 9);
+    font-size: 30px;
+    font-weight: bold;
+}
