@@ -5,9 +5,11 @@ div{
 }
 .message{
     color: rgb(10, 73, 189);
+    font-family: monospace;
 }
 #title{
     color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     color: rgb(0, 0, 0);

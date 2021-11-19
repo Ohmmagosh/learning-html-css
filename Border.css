@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;    
+}
+.dbody{
+    background-color: rgb(59, 40, 40);
+    margin: auto;
+    max-width: 750px;
+    max-height: 200;
+    border-radius: 50px;
+    border: 3px solid white;
+    padding: 5px;
+}
+.header{
+    color: yellow;
+    font-weight: bolder;
+    margin: 10px;
+}
+article,.message1{
+    color: whitesmoke;
+    margin: 10px;
+}
+.text1,.text2,.text3,.text4{
+    border-radius: 10px;
+}
+.text1{
+    border: 3px solid yellow;
+}
+.text2{
+    border: 3px dotted yellow;
+}
+.text3{
+    border: 3px double yellow;
+}
+.text4{
+    border: 3px dashed yellow;
+}
+img{
+    display: block;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(59, 40, 40);
+}
