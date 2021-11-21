@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 7000px;
+}
+.slide{
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px ;
+    border-radius: 10px;
+}
+#header,#article{
+    border: 2px dashed #333;
+    padding: 20px;
+    margin: 10px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+ul{
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#header{
+    font-size: 30px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+#box-1{
+    background-color: crimson;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+}
+#box-2{
+    background-color: orange ;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+#box-3{
+    background-color: rgb(48, 219, 48) ;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+#box-4{
+    background-color: mediumslateblue ;
+    position: fixed;
+}
+#box-5{
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+    margin-bottom: 100px;
+}
+#box-6{
+    background-color: rgb(226, 63, 14);
+    position: sticky;
+    top: 0;
+}

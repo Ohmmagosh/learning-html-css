@@ -1,0 +1,34 @@
+.slide{
+    border: 1px solid #333;
+    margin: 30px auto;
+    padding: 15px;
+}
+#headerslide,ul{
+    border: 2px dashed #333;
+    background: #f4f4f4;
+    border-radius: 10px;  
+}
+#headerslide{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+ul{
+    padding: 10px;
+    padding-left: 40px;
+}
+img{
+    width: 254px;
+}
+.photo{
+    border: 1px dashed #000;
+}
+.img-1{
+    visibility: visible;
+}
+.img-2{
+    visibility: visible;
+}
+/*
+
+*/

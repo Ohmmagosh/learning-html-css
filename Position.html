@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="Position.css">
+</head>
+<body>
+    <div class="slide">
+        <div id="header">
+            <h1>การจัดตำแหน่งด้วย Position</h1>
+        </div>
+        <div id="article">
+            <p>position ใช้ในการจัดตำแหน่งของวัตถุ</p>
+            <ul>
+                <li>static-จัดวางแบบปกติเป็นค่า default</li>
+                <li>relative-ใช้ในการจัดวางและกำหนดตำแหน่งวัตถุโดยการนับจากจุดที่วัตถุนั้นอยู่</li>
+                <li>absolute-ใช้ในการจัดวางวัตถุให้ไปอยู่ในตำแหน่งใดก็ได้แต่ต้องกำหนดตำแหน่งจากของของ
+                    element ที่บรรจุวัตถุนั้นๆอีกที)ถ้าไม่มีนอะไรครอบก็ถือว่าbodyเป็นelementที่ครอบวัตถุที่ระบุ absolute)</li>
+                <li>fixed-ใช้ในการจัดวางวัตถุให้อยู่ตำแหน่งเดิม</li>
+                <li>ให้วัตถุติดของเมื่อเลื่อนไปถึง</li>
+            </ul>
+        </div>
+    </div>
+    <a href="#box-5">box-5</a>
+    <a href="#box-6">box-6</a>
+    <div id="box-1" class="box"></div>
+    <div class="container">
+        <div id="box-2" class="box"></div>
+        <div id="box-3" class="box"></div>
+    </div> 
+    <div id="box-4" class="box"></div>
+    <div id="box-5" class="box"></div>
+    <div id="box-6" class="box"></div>
+</body>
+</html>
