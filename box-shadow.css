@@ -1,0 +1,8 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid crimson;
+    box-shadow: -10px -10px 10px 1px crimson,
+                10px 10px 10px 1px rgb(183, 220, 20);
+}

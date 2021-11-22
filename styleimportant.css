@@ -1,0 +1,23 @@
+.slide{
+    border: 2px solid #333;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin: 30px;
+}
+#article,#header{
+    border: 2px dashed #333;
+    border-radius: 10px;
+    margin: 10px;
+}
+#header{
+    padding-left: 20px;
+}
+#article{
+    font-size: 16px;
+}
+h1{
+    color:red;
+}
+.title{
+    color: royalblue;
+}
